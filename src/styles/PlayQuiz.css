@@ -1,0 +1,115 @@
+.play-quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.play-quiz-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.genre-selection h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.genre-selection select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.quiz-play {
+  text-align: center;
+  width: 100%;
+}
+
+.quiz-play h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.quiz-play p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #666;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.options button {
+  padding: 10px;
+  font-size: 16px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options button:hover:not(:disabled) {
+  background: #e0e0e0;
+}
+
+.options button:disabled {
+  background: #f9f9f9;
+  cursor: not-allowed;
+}
+
+.submit-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #0056b3;
+}
+
+.quiz-results {
+  text-align: center;
+}
+
+.quiz-results h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.quiz-results p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.restart-btn, .review-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.restart-btn:hover, .review-btn:hover {
+  background: #0056b3;
+}

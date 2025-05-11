@@ -1,0 +1,80 @@
+.leaderboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #4fc3f7, #ffca28); /* Blue to yellow gradient */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  min-height: 80vh;
+}
+
+.leaderboard-container h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.error-message {
+  color: #ff4444;
+  font-size: 14px;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 12px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.leaderboard-table th {
+  background: #e91e63; /* Bright pink header */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.leaderboard-table td {
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.leaderboard-table tr {
+  transition: background 0.3s ease;
+}
+
+.leaderboard-table tr:hover {
+  background: #e0f7fa; /* Light cyan on hover */
+}
+
+/* Styling for top 3 ranks */
+.leaderboard-table tr.top-1 {
+  background: #ffd700; /* Gold for 1st */
+  font-weight: bold;
+}
+
+.leaderboard-table tr.top-2 {
+  background: #c0c0c0; /* Silver for 2nd */
+  font-weight: bold;
+}
+
+.leaderboard-table tr.top-3 {
+  background: #cd7f32; /* Bronze for 3rd */
+  font-weight: bold;
+}
